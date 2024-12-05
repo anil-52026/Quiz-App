@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,html{
+  height: 100%;
+  width: 100%;
+}
+/* Global body styles */
+body {
+  background-color: #292b2e;; 
+  font-family: 'Arial', sans-serif;
+  color: #333; /* Dark text color for readability */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.timer {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 18px;
+  color: white;
+  background-color: #4CAF50; /* Green background for better visibility */
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+/* Quiz container styling */
+.container {
+  background-color: #ffffff; /* White background for the quiz */
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* Question styling */
+.question {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Options styling */
+.options {
+  margin-bottom: 10px;
+  padding: 5px;
+  font-size: 16px;
+  text-align: left;
+}
+
+/* Button styling */
+button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  background-color: #007BFF; /* Blue background for the button */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #0056b3; /* Darker blue when hovering */
+}
+
+/* Feedback message */
+.feedback {
+  margin-top: 15px;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* Quiz completion message */
+.feedback {
+  font-size: 16px;
+  font-weight: bold;
+  color: #4caf50; 
+}
