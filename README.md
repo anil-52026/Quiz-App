@@ -1,8 +1,36 @@
-# React + Vite
+# Quiz App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A time-bound quiz app built with React and Vite, providing an interactive and engaging quiz experience. The app features dynamic questions, a countdown timer, and real-time scoring. It offers a responsive, user-friendly interface with smooth transitions across devices.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Time-bound quiz with a countdown timer
+- Dynamic multiple-choice questions
+- Tracks user progress and displays score at the end
+- Responsive design for cross-device compatibility
+- Smooth transitions between questions
+
+## Technologies Used
+
+- React
+- Vite
+- JavaScript
+- CSS
+
+## Installation
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/anil-52026/quiz-app.git
+
+2. **Navigate to the project directory**:
+     cd quiz-app
+   
+3. **Install dependencies**:
+   ```bash
+   npm install
+
+4. **Run the application**:
+   ```bash
+   npm run dev
