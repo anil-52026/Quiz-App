@@ -13,7 +13,6 @@ A time-bound quiz app built with React and Vite, providing an interactive and en
 ## Technologies Used
 
 - React
-- Vite
 - JavaScript
 - CSS
 
@@ -25,12 +24,13 @@ A time-bound quiz app built with React and Vite, providing an interactive and en
    git clone https://github.com/anil-52026/quiz-app.git
 
 2. **Navigate to the project directory**:
+     ```bash
      cd quiz-app
    
-3. **Install dependencies**:
+4. **Install dependencies**:
    ```bash
    npm install
 
-4. **Run the application**:
+5. **Run the application**:
    ```bash
    npm run dev
